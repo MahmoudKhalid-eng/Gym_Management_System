@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="751.0" prefWidth="899.0" style="-fx-background-color: #222831;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="751.0" prefWidth="968.0">
+         <children>
+            <VBox prefHeight="731.0" prefWidth="160.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="71.0" prefWidth="171.0" text="Toning" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ImageView fitHeight="160.0" fitWidth="191.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/T1.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/T2.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/T3.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/T4.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <HBox.margin>
+                  <Insets left="55.0" right="10.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="731.0" prefWidth="160.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="71.0" prefWidth="171.0" text="Fitness" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ImageView fitHeight="160.0" fitWidth="191.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/F1.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/F2.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/F3.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/F4.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="731.0" prefWidth="160.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="71.0" prefWidth="171.0" text="Cardio" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ImageView fitHeight="160.0" fitWidth="191.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/C1.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/C2.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/C3.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/C4.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="731.0" prefWidth="160.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="71.0" prefWidth="171.0" text="Zumba" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ImageView fitHeight="160.0" fitWidth="191.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/z1.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/z2.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/z3.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/z4.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="731.0" prefWidth="160.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="71.0" prefWidth="171.0" text="Boxing" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ImageView fitHeight="160.0" fitWidth="191.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/b1.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/b2.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/b3.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Assets/b4.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

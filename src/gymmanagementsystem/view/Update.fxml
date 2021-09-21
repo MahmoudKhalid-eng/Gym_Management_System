@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="568.0" prefWidth="648.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gymmanagementsystem.view.UpdateCont">
+   <children>
+      <FlowPane alignment="CENTER" layoutX="10.0" layoutY="69.0" orientation="VERTICAL" prefHeight="475.0" prefWidth="626.0">
+         <children>
+            <TextField fx:id="name" prefHeight="56.0" prefWidth="313.0" promptText="Name" styleClass="inp">
+               <FlowPane.margin>
+                  <Insets bottom="15.0" />
+               </FlowPane.margin>
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="phone" prefHeight="56.0" prefWidth="313.0" promptText="Phone" styleClass="inp">
+               <FlowPane.margin>
+                  <Insets bottom="15.0" />
+               </FlowPane.margin>
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="emergency" prefHeight="56.0" prefWidth="313.0" promptText="Emergency" styleClass="inp">
+               <FlowPane.margin>
+                  <Insets bottom="15.0" />
+               </FlowPane.margin>
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="type" prefHeight="56.0" prefWidth="313.0" promptText="Type" styleClass="inp">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <FlowPane.margin>
+                  <Insets bottom="15.0" />
+               </FlowPane.margin>
+            </TextField>
+            <TextField fx:id="sessions" prefHeight="56.0" prefWidth="313.0" promptText="Sessions" styleClass="inp">
+               <FlowPane.margin>
+                  <Insets bottom="15.0" />
+               </FlowPane.margin>
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <Button fx:id="updt" contentDisplay="CENTER" mnemonicParsing="false" onAction="#update" prefHeight="58.0" prefWidth="150.0" styleClass="btn1" text="Update" textAlignment="CENTER">
+               <FlowPane.margin>
+                  <Insets left="85.0" top="5.0" />
+               </FlowPane.margin>
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Button>
+         </children>
+      </FlowPane>
+      <TextField fx:id="key" layoutX="134.0" layoutY="23.0" prefHeight="46.0" prefWidth="300.0" promptText="Enter Search ID" styleClass="inp">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button fx:id="srch" contentDisplay="CENTER" layoutX="451.0" layoutY="19.0" mnemonicParsing="false" onAction="#search" prefHeight="51.0" prefWidth="139.0" styleClass="btn1" text="Search" textAlignment="CENTER">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Label fx:id="res" layoutX="4.0" layoutY="28.0" prefHeight="44.0" prefWidth="150.0" textFill="#0bb911">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
